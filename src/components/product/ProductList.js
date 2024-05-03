@@ -23,9 +23,9 @@ function ProductList(props) {
   }, []);
 
   return <>
-    <h1>ProductList</h1>
+    <h2>ProductList</h2>
     {products.map((product) => (
-      <div>{product.attributes.title}</div>
+      <div key={product.id}>{product.attributes.title}</div>
     ))}
 
 
