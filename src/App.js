@@ -3,7 +3,7 @@ import ProductList from './components/product/ProductList';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <h1>SHOWCASE APP</h1>
       <ProductList />
     </div>

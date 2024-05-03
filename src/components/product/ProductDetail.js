@@ -1,7 +1,11 @@
 import React from "react";
 
-function ProductDetail(props) {
-  return <div>ProductDetail</div>;
+function ProductDetail({ product }) {
+  return (
+    <>
+      ProductDetail
+    </>
+  );
 }
 
 export default ProductDetail;

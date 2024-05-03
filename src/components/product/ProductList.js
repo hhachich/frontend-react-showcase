@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import ProductCard from "./ProductCard";
 
 function ProductList(props) {
   // les products recuperer grace a axios 
@@ -23,11 +24,15 @@ function ProductList(props) {
   }, []);
 
   return <>
-    <h2>ProductList</h2>
-    {products.map((product) => (
-      <div key={product.id}>{product.attributes.title}</div>
-    ))}
+    <h2 className="center">ProductList</h2>
 
+    <div className="container">
+      <div className="row">
+        {products.map(product => (
+          <ProductCard key={product.id} product={product.attributes} />
+        ))}
+      </div>
+    </div>
 
   </>
 }
