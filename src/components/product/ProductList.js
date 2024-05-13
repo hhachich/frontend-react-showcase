@@ -29,7 +29,7 @@ function ProductList(props) {
     <div className="container">
       <div className="row">
         {products.map(product => (
-          <ProductCard key={product.id} product={product.attributes} />
+          <ProductCard key={product.id} id={product.id} product={product.attributes} />
         ))}
       </div>
     </div>

@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function ProductCard({ product }) {
+function ProductCard({ product, id }) {
+  console.log(id)
   return (
     <>
       <div className="col s12 m3">
@@ -13,10 +15,10 @@ function ProductCard({ product }) {
             <p>{product.description.substring(0, 50) + "..."}</p>
           </div>
           <div className="card-action">
-            <a href="#">Details</a>
+            <Link to={`/pd/${id}`}> Details  </Link>
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 }

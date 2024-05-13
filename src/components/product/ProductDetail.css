@@ -1,0 +1,22 @@
+.product {
+  position: relative;
+  overflow: hidden;
+  border: solid;
+  border: 5px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  width: auto;
+  margin: 20px;
+}
+.product-image {
+  cursor: pointer;
+  border-radius: 30px;
+  overflow: hidden;
+  max-width: 100%;
+  position: center;
+  aspect-ratio: 1/1;
+  width: 300px;
+}
+.product-categories {
+  border: 5px solid black;
+}
