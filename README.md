@@ -1,16 +1,20 @@
 # Info sur le projet
 
-## version de Node
+## Version de Node
 
 `v20.12.2`
 
-## version de React
+## Version de React
 
 `18.3.1`
 
-## version de npm
+## Version de npm
 
 `10.5.0`
+
+## Backend utiliser Strapi
+
+`https://github.com/hhachich/backend-strapi-react
 
 # Installation du projet
 
