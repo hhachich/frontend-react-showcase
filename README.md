@@ -16,6 +16,11 @@
 
 `https://github.com/hhachich/backend-strapi-react
 
+# Installation rapide grace a un script
+
+utiliser `install.sh`
+Ps: ceci ne fonctionne pas si vous etes sur WSL
+
 # Installation du projet
 
 ## Installation des dépendances
